@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -amvF | tr '\n' ',' | sed 's/,$/\n/'
+ls -amvF --file-type | tr '\n' ',' | sed 's/,$/\n/'
